@@ -22,7 +22,7 @@
                });
                $(window).resize(function () {
                    if (tableCreated)
-                       $(element).bootstrapTable('reset');
+                       $(element).jsGrid('reset');
                })
            }
        };
